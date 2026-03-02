@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #666;
+    text-align: center;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    font-weight: normal;
+}
+
+h3 {
+    color: #444;
+    margin-bottom: 15px;
+}
+
+/* Formulaire */
+.form-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #4CAF50;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Statistiques */
+.stats-container {
+    background-color: #e8f5e8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.stat-item {
+    flex: 1;
+}
+
+.stat-label {
+    display: block;
+    color: #666;
+    font-size: 0.9em;
+}
+
+.stat-value {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+/* Liste des personnes */
+.list-container {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.person-list {
+    display: grid;
+    gap: 10px;
+}
+
+.person-card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.person-info {
+    flex: 1;
+}
+
+.person-name {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.person-details {
+    color: #666;
+    font-size: 0.9em;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+    width: auto;
+    font-size: 0.9em;
+}
+
+.delete-btn:hover {
+    background-color: #da190b;
+}
+
+.empty-message {
+    text-align: center;
+    color: #999;
+    padding: 20px;
+    font-style: italic;
+}
